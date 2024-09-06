@@ -15,17 +15,33 @@
 .header_bg{
     background-color: rgb(250 204 21);
     display: flex;
-    justify-content: space-around;
-    width: 45%;
+    justify-content: space-between;
+    width: 50%;
     margin: 1rem 0;
     padding: .2rem;
     border: 2px dotted black;
 }
 
+.content_logo{
+    width: 20%;
+    text-align: start;
+    border-right: 2px dotted black;
+}
+
 .content_list{
+    width: 40%;
+}
+
+.list{
     list-style-type: none;
     display: flex;
     gap: 1rem;
+}
+
+.content_login{
+    width: 20%;
+    text-align: end;
+    border-left: 2px dotted black;
 }
 
 /* #main */
