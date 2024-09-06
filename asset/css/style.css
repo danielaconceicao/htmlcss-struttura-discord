@@ -5,43 +5,27 @@
     box-sizing: border-box;
 }
 
-:root{
-    --header-bg: #add8e6;
-    --header-content: #daa520;
-}
-
 /* #header */
-header{
-    border: 1px solid black;
+.container_header{
     background-color: #add8e6;
     display: flex;
     justify-content: center;
 }
 
-.container_header{
-    border: 3px solid black;
-    background-color: var(--header-content);
-    margin: 1rem 0;
-    width: 60%;/* dúvida, porque se eu tiro nao fica confuso e o space-baround não funciona? */
+.header_bg{
+    background-color: rgb(250 204 21);
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
+    width: 45%;
+    margin: 1rem 0;
+    padding: .2rem;
+    border: 2px dotted black;
 }
 
-.content_logo{
-    border-right: 4px solid black;
-    width: 10%;
-}
-
-.cont_flex{/* poq tenho que colocar o display flex na ul e nao na div que cobre a ul e li? */
+.content_list{
+    list-style-type: none;
     display: flex;
     gap: 1rem;
-    list-style-type: none;
-}
-
-.content_login{
-    border-left: 4px solid rgb(55, 5, 121);
-    width: 10%;
-    text-align: end;
 }
 
 /* #main */
