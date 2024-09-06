@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-bg: #add8e6;
+    --header-content: #daa520;
+}
+
+/* #header */
+header{
+    border: 1px solid black;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+}
+
+.container_header{
+    border: 3px solid black;
+    background-color: var(--header-content);
+    margin: 1rem 0;
+    width: 60%;/* dúvida, porque se eu tiro nao fica confuso e o space-baround não funciona? */
+    display: flex;
+    justify-content: space-around; 
+}
+
+.content_logo{
+    border-right: 4px solid black;
+    width: 10%;
+}
+
+.cont_flex{/* poq tenho que colocar o display flex na ul e nao na div que cobre a ul e li? */
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.content_login{
+    border-left: 4px solid rgb(55, 5, 121);
+    width: 10%;
+    text-align: end;
+}
+
+/* #main */
+.content{
+    /* width: 100%; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #container 01 */
+.bg_blue_800{
+    background-color: #00008b;
+}
+
+.bg_pink_500{
+    background-color: rgb(236 72 153);
+    width: 40%;
+    height: 70%;
+    border: 2px dotted black;
+    /*margin: 0 auto; porq quando eu coloco a margin;top no filho sofre o pai?*/
+}
+/* container 01, 02, 03 bg blue */
+.bg_blue_400{
+    background-color: #1e90ff;
+    width: 30%;
+    height: 200px;
+    border: 2px dotted black;
+}
+/* container 01, 02, 03 bg pink */
+.bg_pink_300{
+    background-color:rgb(249 168 212);
+    width: 15%;
+    height: 200px;
+    border: 2px dotted black;
+}
+/* bg container 03 e 04 */
+.bg_gray_400{
+    background-color: #d3d3d3;
+}
+/* container 05 */
+.content_05{
+    height: 450px;
+}
+
+.bg_green_600{
+    background-color: rgb(22 163 74);
+    width: 45%;
+    height: 90%;
+    border: 2px dotted black;
+}
+/* container 06 */
+.content_06{
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.bg_neutral_800{
+    background-color: #23272A;
+}
+
+.bg_rose_500{
+    background-color: #f08080;
+    width: 15%;
+    height: 280px;
+    border: 2px dotted black;
+}
+
+.bg_teal_400{
+    background-color: #20b2aa;
+    width: 7.5%;
+    height: 280px;
+    border: 2px dotted #fff;
+}
+
+/* footer */
+.footer_section{
+    display: flex;
+    justify-content: center;
+}
+
+.bg_teal_200{
+    background-color: rgb(18, 248, 202);
+    width: 45%;
+    margin-top: 1rem;
+    padding: .4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg_pink_foot{
+    background-color: rgb(249 168 212);
+    padding: .2rem;
+    border: 2px dotted black;
+}
